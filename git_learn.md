@@ -118,4 +118,13 @@ $ git commit -m "add 3 files."
 
 #### feature分支
  * ` git branch -D <name>`强制删除没有合并的分支
-   
+
+
+#### 使用git时出现的问题？
+ 1. ` fatal: refusing to merge unrelated histories`
+ 解决： ` git pull origin master --allow-unrelated-histories`
+
+ 2. 多人合作下的 ` git push`可能不成功，原因是远程的文件有更新的提交冲突，需要` git pull`和手动修改冲突。
+
+
+  

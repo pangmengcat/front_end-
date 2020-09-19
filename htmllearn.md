@@ -102,3 +102,53 @@ padding//内边距
 
 ##### chrome f12 on mac
 > option + command + i
+
+#### 添加图像
+ <b>标签：</b>` <img>`
+ <b>特性：</b>
+ 1. src(告诉浏览器哪里可以找到图片) 
+ 2. alt(图像的文本说明) 
+ 3. title（图像的附加说明）
+ 4. height
+ 5. width
+
+ #### 表格
+  1. 标签：` <table> <tr>:table row <td>:table data`
+  2. 表格的标题： ` <th>`
+  3. 特性： colspan 跨列 rowspan 跨行
+  <br>
+  ``` 
+  <table width="400" cellpadding="10" cellspacing="5">
+   <tr>
+    <th width="150"></th>
+    <th>Alice</th>
+    <th>Tom</th>
+    <th>Bob</th>
+  </tr>
+  <tr>
+    <th>age</th>
+      <td colspan="2">5</td>  <td>4</td>
+      <td>17</td>
+  </tr>
+  </table>
+  ```
+  <table width="400" cellpadding="10" cellspacing="5">
+  <tr>
+  <th width="150"></th>
+  <th>Alice</th>
+  <th>Tom</th>
+  <th>Bob</th>
+  </tr>
+  <tr>
+  <th>age</th>
+  <td colspan="2">5</td> 
+  <td>4</td>
+  
+  </tr>
+  </table>
+
+#### 表单
+* 标签
+` <textarea> <input> `
+
+
